@@ -1,0 +1,23 @@
+{
+	"name": "robinhood-api-utilities",
+	"version": "1.0.0",
+	"description": "🧰 A collection of utilities for building datasets and interacting with the Robinhood API.",
+	"main": "index.js",
+	"scripts": {
+		"prestart": "clear",
+		"pretest": "clear && standard .",
+		"test": "node test/",
+		"build": "node ./bin/"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"async-csv": "^2.1.3",
+		"node-fetch": "^2.6.0"
+	},
+	"devDependencies": {
+		"standard": "^14.3.4",
+		"tape": "^5.0.1"
+	}
+}
