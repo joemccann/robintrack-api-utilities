@@ -9,8 +9,8 @@ Robintrack API.
 npm run build -- generate
 ```
 
-This will currently build out the JSON file of `symbol` and `instrument`
-object pairs and write it to the `json` directory.
+Generates a JSON file of all ticker symbols on Robintrack and
+ writes it to the `json` directory.
 
 ## LICENSE
 
