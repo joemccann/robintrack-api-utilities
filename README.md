@@ -12,6 +12,13 @@ npm run build -- generate
 Generates a JSON file of all ticker symbols on Robintrack and
  writes it to the `json` directory.
 
+## TESTS
+
+```sh
+npm i -D
+npm test
+```
+
 ## LICENSE
 
 MIT
