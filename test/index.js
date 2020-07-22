@@ -25,7 +25,7 @@ test('PASS: generate symbols JSON - default', async t => {
   try {
     const { data } = await generateSymbolsJSON()
     t.ok(data)
-    console.dir(data)
+    t.ok(Array.isArray(data))
   } catch (e) {
     console.error(e)
   }
