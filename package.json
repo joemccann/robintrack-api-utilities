@@ -1,6 +1,6 @@
 {
 	"name": "robintrack-api-utilities",
-	"version": "1.1.2",
+	"version": "1.1.3",
 	"description": "🧰 A collection of utilities for building datasets and interacting with the Robintrack API.",
 	"main": "index.js",
 	"scripts": {
