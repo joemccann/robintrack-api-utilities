@@ -23,6 +23,7 @@ const {
 
 const { data } = await generateSymbolsJSON()
 console.dir(data) // ['A','AA','AAAU'...]
+```
 
 CLI:
 
