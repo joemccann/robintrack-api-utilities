@@ -22,7 +22,7 @@ const downloadLatestLeaderboard = async () => {
 
 const generateSymbolsFile = async (filename = 'ALL') => {
   try {
-    const data = await generateSymbolsJSON()
+    const { data } = await generateSymbolsJSON()
     if (!data) throw new Error('No symbols data to write.')
     await writeFile(data, filename)
   } catch (e) {
