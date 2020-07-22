@@ -2,7 +2,8 @@ const test = require('tape')
 
 const {
   downloadLatestLeaderboard,
-  generateSymbolsFile
+  generateSymbolsFile,
+  generateSymbolsJSON
 } = require('../src/')
 
 test('sanity', t => {
@@ -14,6 +15,17 @@ test('PASS: download latest leaderboard - default', async t => {
   try {
     const { data } = await downloadLatestLeaderboard()
     t.ok(data)
+  } catch (e) {
+    console.error(e)
+  }
+  t.end()
+})
+
+test('PASS: generate symbols JSON - default', async t => {
+  try {
+    const { data } = await generateSymbolsJSON()
+    t.ok(data)
+    console.dir(data)
   } catch (e) {
     console.error(e)
   }
