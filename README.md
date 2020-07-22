@@ -5,6 +5,27 @@ Robintrack API.
 
 ## Usage
 
+Module:
+
+```sh
+npm i -S joemccann/robintrack-api-utilities
+```
+
+In your app:
+
+```js
+
+const {
+  downloadLatestLeaderboard,
+  generateSymbolsFile,
+  generateSymbolsJSON
+} = require('robintrack-api-utilities')
+
+const { data } = await generateSymbolsJSON()
+console.dir(data) // ['A','AA','AAAU'...]
+
+CLI:
+
 ```sh
 npm run build -- generate
 ```
