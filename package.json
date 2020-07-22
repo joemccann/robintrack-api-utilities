@@ -1,7 +1,7 @@
 {
-	"name": "robinhood-api-utilities",
+	"name": "robintrack-api-utilities",
 	"version": "1.1.0",
-	"description": "🧰 A collection of utilities for building datasets and interacting with the Robinhood API.",
+	"description": "🧰 A collection of utilities for building datasets and interacting with the Robintrack API.",
 	"main": "index.js",
 	"scripts": {
 		"prestart": "clear",

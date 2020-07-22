@@ -8,7 +8,7 @@ Robintrack API.
 Module:
 
 ```sh
-npm i -S joemccann/robintrack-api-utilities
+npm i -S @joemccann/robintrack-api-utilities
 ```
 
 In your app:
@@ -19,7 +19,7 @@ const {
   downloadLatestLeaderboard,
   generateSymbolsFile,
   generateSymbolsJSON
-} = require('robintrack-api-utilities')
+} = require('@joemccann/robintrack-api-utilities')
 
 const { data } = await generateSymbolsJSON()
 console.dir(data) // ['A','AA','AAAU'...]
