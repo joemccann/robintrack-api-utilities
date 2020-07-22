@@ -4,7 +4,7 @@ const {
   downloadLatestLeaderboard,
   generateSymbolsFile,
   generateSymbolsJSON
-} = require('../src/')
+} = require('../')
 
 test('sanity', t => {
   t.ok(true)
